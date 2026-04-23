@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(brew search *)",
+      "Read(//usr/local/bin/**)",
+      "Read(//opt/homebrew/**)",
+      "Bash(brew list *)",
+      "Read(//Users/Adham1/.local/share/nvim/**)",
+      "Bash(brew install *)",
+      "Bash(scheme --version)",
+      "Bash(chez *)",
+      "Read(//private/tmp/**)",
+      "Bash(curl -L https://gitlab.com/akkuscm/akku/-/releases/v1.1.0/downloads/akku-1.1.0.x86_64-linux.tar.gz -o akku.tar.gz)",
+      "Bash(echo \"exit: $?\")",
+      "Bash(git clone *)"
+    ]
+  }
+}
