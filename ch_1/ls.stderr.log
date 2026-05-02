@@ -1,0 +1,2 @@
+/Users/Adham1/repos/guile-language-server/wrapper: /Users/Adham1/repos/guile-language-server/main.scm: /bin/env: bad interpreter: No such file or directory
+/Users/Adham1/repos/guile-language-server/wrapper: line 3: /Users/Adham1/repos/guile-language-server/main.scm: Undefined error: 0
