@@ -1,0 +1,25 @@
+(define (cons a b)
+  (* (expt 2 a) (expt 3 b))
+  )
+
+(define (car z)
+  (define (recurse a n)
+    (define rem (remainder a 2))
+    (if (> rem 0) n
+        (recurse (/ a 2) (+ n 1))
+      )
+  )
+    (recurse z 0)
+    )
+
+(define (cdr z)
+  (define (recurse a n)
+    (define rem (remainder a 3))
+    (if (> rem 0) n
+        (recurse (/ a 3) (+ n 1))
+      )
+  )
+    (recurse z 0)
+    )
+(car 12)
+(cdr 12)

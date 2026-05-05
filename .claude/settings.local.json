@@ -12,7 +12,14 @@
       "Read(//private/tmp/**)",
       "Bash(curl -L https://gitlab.com/akkuscm/akku/-/releases/v1.1.0/downloads/akku-1.1.0.x86_64-linux.tar.gz -o akku.tar.gz)",
       "Bash(echo \"exit: $?\")",
-      "Bash(git clone *)"
+      "Bash(git clone *)",
+      "Bash(curl -sL \"https://gitlab.com/akkuscm/akku/-/releases/v1.1.0/downloads/akku-1.1.0.amd64-linux.tar.xz\" -o akku-linux.tar.xz)",
+      "Bash(mkdir -p ~/.hammerspoon)",
+      "Read(//Users/Adham1/.hammerspoon/**)",
+      "Bash(open *)",
+      "Read(//Users/Adham1/**)",
+      "Read(//Users/Adham1/.config/**)",
+      "Bash(tmux source-file *)"
     ]
   }
 }
